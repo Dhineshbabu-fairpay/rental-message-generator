@@ -1,0 +1,3 @@
+[submodule "CustomerMileTracker"]
+	path = CustomerMileTracker
+	url = https://github.com/Dhineshbabu-fairpay/rental-message-generator.git
