@@ -1,0 +1,87 @@
+Renter Name	Due Yesterday	06/19/2025 Uber Earnings	06/20/2025 Daily Fee	Due/Paid
+Alieu Sheriff	$0.00	$0.00	$89.00	$89.00
+Amber Brandon	$0.00	$155.12	$79.00	-$76.12
+AMBER LAWRENCE - BULLOCK	$89.00	$0.00	$89.00	$178.00
+Annika Chabineau/lovegren	$0.00	$129.06	$99.00	-$30.06
+Brannon Roberts	$235.54	$163.37	$89.00	$161.17
+Brian Stuart	$0.00	$0.00	$115.00	$115.00
+Brittanie Artise Boyd	$99.00	$0.00	$99.00	$198.00
+Brittany Odems	$76.00	$213.08	$79.00	-$58.08
+CAROLYN HAMILTON	$0.00	$121.92	$89.00	-$32.92
+Chad Risbey	110.29	$105.67	$79.00	$83.62
+Charles Crider	$0.00	$230.70	$89.00	-$141.70
+Corena West	$99.56	$95.61	$89.00	$92.95
+DAJAHNAY DUDLEY	$775.06	$0.00	$99.00	$874.06
+Darril Wright	$0.00	$284.96	$79.00	-$205.96
+Demonte Everett Bennett	$304.00	$26.62	$79.00	$356.38
+Donshay Culpepper		$0.00	$89.00	$89.00
+GABRIELLA CLARK	$0.00	$128.88	$89.00	-$39.88
+Jaynan Harper	$292.26	$51.34	$99.00	$339.92
+Jeremy blakes	$0.00	$196.09	$69.00	-$127.09
+Jorge Eduardo Rodriguez Serrano	$0.00	$9.00	$69.00	$60.00
+Joshua Otiena Okello	$0.00	$262.28	$89.00	-$173.28
+Justin Contreras		$91.34	$89.00	-$2.34
+KAREN CHRIESMAN	$52.37	$36.25	$79.00	$95.12
+Katrina Barree	$39.11	$131.24	$79.00	-$13.13
+Kevin Andrew Zametz	$203.31	$45.39	$94.00	$251.92
+Khondae Jonatao A	$0.00	$0.00	$89.00	$89.00
+Kj Miner	$10.00	$221.80	$89.00	-$122.80
+LATREICE MONAE BOWLER	$0.00	$114.94	$89.00	-$25.94
+Mallory Russell	$487.00	$0.00	$74.00	$561.00
+Mario Hutchsio	$0.00	$239.49	$89.00	-$150.49
+Marlon Wayne Mckizzie	$247.00	$0.00	$79.00	$326.00
+MARQUISSHA HAYNES	$0.00	$50.15	$75.00	$24.85
+Mary Link	$0.00	$0.00	$99.00	$99.00
+Matthieu Mukendi Tshiovo	$313.78	$169.15	$89.00	$233.63
+Melissa Radford	$983.82	$0.00	$89.00	$1,072.82
+MELVIN SIMMONS	$259.00	$0.00	$69.00	$328.00
+Miguel VALERO	$0.00	$219.21	$89.00	-$130.21
+Mya Bundred	$89.00	$0.00	$89.00	$178.00
+Nabil M Hassan	$0.00	$97.94	$89.00	-$8.94
+Olivier Lubeya Muanayala	$268.00	$0.00	$89.00	$357.00
+Rachel Ashorgbor	$89	$307.02	$89.00	-$129
+Sadler Devin Deshaun	$243	$0.00	$99.00	$342
+Samantha	$0.00	$35.99	$89.00	$53.01
+Sammy Manigo Lee (Weekly payments are collected every Friday.)	$0.00	$0.00	$50.00	$50.00
+STEPHAN CAMBlAT(Send message only monday revise the Google voice)	$40.63	$142.79	$89.00	-$13.16
+Tiffiny Gevonne Taylor	$0.00	$121.79	$79.00	-$42.79
+Tim Manney	$0.00	$330.11	$125.00	-$205.11
+Timothy Lawrence JR Patterson	$0.00	$0.00	$79.00	$79.00
+Udemeka Michael Ukpong	$0.00	$189.85	$100.00	-$89.85
+Wu Benjamin	$458	$0.00	$0.00	$458
+Yahweh Ben Yahweh	$0.00	$62.41	$99.00	$36.59
+Zakarea Jackson	$0.00	$0.00	$84.10	$84.10
+Tara Hamblen	$0.00	$0.00	$0.00	$0.00
+Otis Jackson	$0.00	$0.00	$0.00	$0.00
+Alejandra Williams	$62.17	$0.00	$89.00	$151.17
+Samantha Maldonado	$0.00	$59.08	$99.00	$39.92
+
+
+analyze the data and create a message for each customer. I will give template
+1st template for non minus values in
+Previous outstanding  ${dy}  
+{yesterday date 06/15} Uber earnings  ${dy}  
+{yesterday date 06/19} Miles Driven {dy} 
+{current date 06/20} Daily rental  ${dy} 
+{current date06/20} outstanding ${previous outstanding}-${uber earnings}+${daily rental} =  ${balance}  
+
+Pls Pay ${balance} outstanding as of {06/20 current date} 
+
+Please make the outstanding's payments amount, thru any of the following: 
+ * Zelle: hasnath@fairpy.com   
+ * Cash App ID: $Hasanath 
+ * Venmo (Business): @fairpy  
+ * PayPal: hasnath@fairpy.com
+
+screenshot once payment is made. Thank you!
+
+2nd template for minus values
+Previous outstanding  $ 0.00  
+06/19 Uber earnings  ${dynamic}  
+06/19 Miles Driven {dynamic} 
+06/20 Daily rental  ${dynamic} 
+06/20 Balance earnings ${dynamic}-${dynamic} =  ${dynamic}  
+
+The balance will be sent to you by before 2 PM.
+
+whenever paste data generate message with particular template
